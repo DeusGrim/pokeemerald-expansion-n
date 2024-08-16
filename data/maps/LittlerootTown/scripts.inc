@@ -904,6 +904,13 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	waitfanfare
 	setflag FLAG_RECEIVED_RUNNING_SHOES
 	msgbox LittlerootTown_Text_ExplainRunningShoes, MSGBOX_DEFAULT
+	msgbox LittlerootTown_Text_ExplainDad, MSGBOX_DEFAULT
+	msgbox LittlerootTown_Text_ExplainDynamaxBand, MSGBOX_DEFAULT
+	giveitem ITEM_DYNAMAX_BAND
+	msgbox LittlerootTown_Text_ExplainMegaRing, MSGBOX_DEFAULT
+	giveitem ITEM_MEGA_RING
+	msgbox LittlerootTown_Text_ExplainZPowerRing, MSGBOX_DEFAULT
+	giveitem ITEM_Z_POWER_RING
 	msgbox LittlerootTown_Text_ComeHomeIfAnythingHappens, MSGBOX_DEFAULT
 	closemessage
 	delay 30
@@ -946,6 +953,31 @@ LittlerootTown_Text_ExplainRunningShoes:
 	.string "RUNNING SHOES to run extra-fast!\p"
 	.string "“Slip on these RUNNING SHOES and race\n"
 	.string "in the great outdoors!”$"
+
+LittlerootTown_Text_ExplainDad:
+	.string "MOM:Oh! I almost forgot. Your\n"
+	.string "father also wanted me to give you these.\p"
+	.string "He couldn't be here but he knew that\n"
+	.string "You would need these after you met with\l"
+	.string "PROF.BIRCH.”$"
+
+	LittlerootTown_Text_ExplainDynamaxBand:
+	.string "MOM: He said with this you will be\n"
+	.string "able to maximize your Pokémon's power!”$"
+	
+
+	LittlerootTown_Text_Mega_Ring_Explanation:
+	.string "MOM: This ring is used to \n"
+	.string "evolve your Pokémon further! \p"
+	.string "He said it's up to you to find \n"
+	.string "the Mega Stones needed to harness \l"
+	.string "it's power!$"
+
+	LittlerootTown_Text_Z_Power_Ring_Explanation:
+	.string "This ring is used to unleash \n"
+	.string "the power of your Pokémon's moves! \p"
+	.string "He said you'll also need to find \n"
+	.string "the Z-Crystals to use this!$"
 
 LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "… … … … … … … …\n"
