@@ -1984,6 +1984,7 @@ static const struct LevelUpMove sElectrodeHisuianLevelUpLearnset[] = {
 #if P_FAMILY_EXEGGCUTE
 static const struct LevelUpMove sExeggcuteLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BARRAGE),
+    LEVEL_UP_MOVE( 1, MOVE_DRAGON_DANCE),
     LEVEL_UP_MOVE( 1, MOVE_HYPNOSIS),
     LEVEL_UP_MOVE(25, MOVE_REFLECT),
     LEVEL_UP_MOVE(28, MOVE_LEECH_SEED),
@@ -1996,6 +1997,7 @@ static const struct LevelUpMove sExeggcuteLevelUpLearnset[] = {
 
 static const struct LevelUpMove sExeggutorLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 1, MOVE_BARRAGE),
+    LEVEL_UP_MOVE( 1, MOVE_DRAGON_DANCE),
     LEVEL_UP_MOVE( 1, MOVE_HYPNOSIS),
     LEVEL_UP_MOVE(28, MOVE_STOMP),
     LEVEL_UP_END
@@ -2004,6 +2006,7 @@ static const struct LevelUpMove sExeggutorLevelUpLearnset[] = {
 #if P_ALOLAN_FORMS
 static const struct LevelUpMove sExeggutorAlolanLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_DRAGON_HAMMER),
+    LEVEL_UP_MOVE( 1, MOVE_DRAGON_DANCE),
     LEVEL_UP_MOVE( 1, MOVE_DRAGON_HAMMER),
     LEVEL_UP_MOVE( 1, MOVE_SEED_BOMB),
     LEVEL_UP_MOVE( 1, MOVE_BARRAGE),
@@ -2020,6 +2023,7 @@ static const struct LevelUpMove sExeggutorAlolanLevelUpLearnset[] = {
 
 #if P_FAMILY_CUBONE
 static const struct LevelUpMove sCuboneLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_WILL_O_WISP),
     LEVEL_UP_MOVE( 1, MOVE_GROWL),
     LEVEL_UP_MOVE(10, MOVE_BONE_CLUB),
     LEVEL_UP_MOVE(13, MOVE_TAIL_WHIP),
@@ -2154,6 +2158,7 @@ static const struct LevelUpMove sLickilickyLevelUpLearnset[] = {
 
 #if P_FAMILY_KOFFING
 static const struct LevelUpMove sKoffingLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_MISTY_TERRAIN),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_SMOG),
     LEVEL_UP_MOVE(32, MOVE_SLUDGE),
@@ -2165,6 +2170,7 @@ static const struct LevelUpMove sKoffingLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sWeezingLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_MISTY_TERRAIN),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_SMOG),
     LEVEL_UP_MOVE( 1, MOVE_SLUDGE),
@@ -2179,6 +2185,7 @@ static const struct LevelUpMove sWeezingLevelUpLearnset[] = {
 #if P_GALARIAN_FORMS
 static const struct LevelUpMove sWeezingGalarianLevelUpLearnset[] = {
     LEVEL_UP_MOVE( 0, MOVE_DOUBLE_HIT),
+    LEVEL_UP_MOVE( 0, MOVE_MISTY_TERRAIN),
     LEVEL_UP_MOVE( 1, MOVE_DOUBLE_HIT),
     LEVEL_UP_MOVE( 1, MOVE_STRANGE_STEAM),
     LEVEL_UP_MOVE( 1, MOVE_DEFOG),

@@ -16326,6 +16326,7 @@ static const struct LevelUpMove sCarbinkLevelUpLearnset[] = {
 
 #if P_FAMILY_GOOMY
 static const struct LevelUpMove sGoomyLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_IRON_HEAD),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_BUBBLE),
     LEVEL_UP_MOVE( 5, MOVE_ABSORB),
@@ -16506,6 +16507,7 @@ static const struct LevelUpMove sGourgeistLevelUpLearnset[] = {
 
 #if P_FAMILY_BERGMITE
 static const struct LevelUpMove sBergmiteLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_ROCK_SLIDE),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_BITE),
     LEVEL_UP_MOVE( 1, MOVE_HARDEN),

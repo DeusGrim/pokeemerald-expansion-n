@@ -11185,6 +11185,7 @@ static const struct LevelUpMove sOshawottLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sDewottLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_NIGHT_SLASH),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_TAIL_WHIP),
     LEVEL_UP_MOVE( 1, MOVE_WATER_GUN),
@@ -12094,6 +12095,7 @@ static const struct LevelUpMove sWhimsicottLevelUpLearnset[] = {
 
 #if P_FAMILY_PETILIL
 static const struct LevelUpMove sPetililLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_ROCK_SMASH),
     LEVEL_UP_MOVE( 1, MOVE_ABSORB),
     LEVEL_UP_MOVE( 4, MOVE_GROWTH),
     LEVEL_UP_MOVE( 8, MOVE_LEECH_SEED),
