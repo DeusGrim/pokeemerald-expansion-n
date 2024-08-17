@@ -4627,7 +4627,7 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Strength
 - Facade
 
-Absol @ Sitrus Berry
+Absol @ Absolite
 Level: 49
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aerial Ace
@@ -4670,21 +4670,29 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Night Shade
 - Feint Attack
 
-Banette
+Aegislash
 Level: 49
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Shadow Ball
-- Psychic
-- Thunderbolt
-- Facade
+- Kings Shield
+- Sacred Sword
+- Swords Dance
 
-Dusclops @ Sitrus Berry
+Dusknoir @ Sitrus Berry
 Level: 51
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Shadow Ball
-- Ice Beam
-- Rock Slide
-- Earthquake
+- Thunder Punch
+- Payback
+- Calm Mind
+
+Ceruledge @ Weakness Policy
+Level: 51
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Shadow Ball
+- Bitter Blade
+- Swords Dance
+- Protect
 
 === TRAINER_GLACIA ===
 Name: GLACIA
@@ -4705,23 +4713,25 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Hail
 - Ice Ball
 
-Glalie
-Level: 50
-IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+Froslass @ Never-Melt Ice  
+Ability: Cursed Body  
+Level: 52  
+Jolly Nature  
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe  
+- Captivate  
+- Icy Wind  
+- Calm Mind  
 - Light Screen
-- Crunch
-- Icy Wind
-- Ice Beam
 
-Sealeo
+Cetitan
 Level: 52
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Attract
+- Ice Beam
 - Double Edge
-- Hail
+- Amnesia
 - Blizzard
 
-Glalie
+Glalie @ Glalitite
 Level: 52
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Shadow Ball
@@ -4737,6 +4747,15 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
 - Sheer Cold
 
+Baxcalibur
+Level: 54
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe 
+Ability: Thermal Exchange 
+- Glaive Rush  
+- Swords Dance  
+- Icicle Crash  
+- Crunch
+
 === TRAINER_DRAKE ===
 Name: DRAKE
 Class: Elite Four
@@ -4748,13 +4767,13 @@ Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Blue
 
-Shelgon
+Noivern
 Level: 52
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Rock Tomb
-- Dragon Claw
-- Protect
-- Double Edge
+- Swagger
+- Tailwind
+- Flamethrower
+- Toxic
 
 Altaria
 Level: 54
@@ -4780,13 +4799,21 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Dragon Breath
 - Earthquake
 
-Salamence @ Sitrus Berry
+Salamence @ Salamencite
 Level: 55
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Flamethrower
 - Dragon Claw
 - Rock Slide
 - Crunch
+
+Dragapult
+Level:55
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Phantom Force
+- Hex
+- Dragon Rush
+- Dragon Dance
 
 === TRAINER_ROXANNE_1 ===
 Name: ROXANNE
@@ -4806,16 +4833,25 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Rock Throw
 - Rock Tomb
 
-Geodude
+Glimmet
 Level: 12
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Defense Curl
 - Rock Throw
+- Harden
+- Ancient Power
+- Rock Tomb
+
+Roggenrola
+Level: 12
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Headbutt
+- Harden
+- Swagger
 - Rock Tomb
 
 Nosepass @ Oran Berry
 Level: 15
+Dynamax Level: 1
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Block
 - Harden
@@ -4840,6 +4876,14 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Seismic Toss
 - Bulk Up
 
+Scraggy
+Level: 16
+IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+- Brick Break
+- Low Kick
+- Swagger
+- Double Team
+
 Meditite
 Level: 16
 IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
@@ -4848,7 +4892,7 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 - Reflect
 - Bulk Up
 
-Makuhita @ Sitrus Berry
+Makuhita @ Fightinium Z
 Level: 19
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Arm Thrust
@@ -4889,6 +4933,14 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Shock Wave
 - Thunder Wave
 - Sonic Boom
+
+Pawmo @ Electrium Z
+Level: 20
+IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
+- Quick Attack
+- Charge
+- Thunderbolt
+- Thunder Punch
 
 Manectric @ Sitrus Berry
 Level: 24
@@ -4932,6 +4984,14 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Sunny Day
 - Attract
 
+Carkol
+Level: 24
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Flame Charge
+- Reflect
+- Flamethrower
+- Rock Polish
+
 Torkoal @ White Herb
 Level: 29
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
@@ -4966,13 +5026,13 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Encore
 - Feint Attack
 
-Linoone
+Bewear
 Level: 29
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Slash
-- Belly Drum
-- Facade
-- Headbutt
+- Body Slam
+- Payback
+- Brutal Swing
+- Bulk Up
 
 Slaking @ Sitrus Berry
 Level: 31
@@ -5024,8 +5084,19 @@ IVs: 26 HP / 26 Atk / 26 Def / 26 SpA / 26 SpD / 26 Spe
 - Steel Wing
 - Aerial Ace
 
-Altaria @ Oran Berry
-Level: 33
+Hawlucha @ Focus Sash  
+Ability: Unburden  
+Level: 31  
+Shiny: Yes  
+Adamant Nature  
+IVs: 26 HP / 26 Def / 26 SpA / 26 SpD / 26 Spe  
+- Roost  
+- Flying Press  
+- Swords Dance  
+- Aerial Ace
+
+Altaria @ Altarianite
+Level: 35
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Earthquake
 - Dragon Breath
@@ -5050,13 +5121,29 @@ IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
 - Psychic
 - Light Screen
 
-Xatu
+Beheeyem
 Level: 41
 IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
-- Psychic
-- Sunny Day
-- Confuse Ray
+- Miracle Eye
+- Zen Headbutt
 - Calm Mind
+- Light Screen
+
+Gardevoir @ Gardevoirite
+Level: 41
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Calm Mind
+- Psychic
+- Reflect
+- Light Screen
+
+Gallade @ Galladite
+Level: 41
+IVs: 30 HP / 30 Atk / 30 Def / 30 SpA / 30 SpD / 30 Spe
+- Psycho Cut
+- Shadow Ball
+- Swords Dance
+- Aerial Ace
 
 Lunatone @ Sitrus Berry
 Level: 42
@@ -5084,7 +5171,7 @@ Items: Hyper Potion / Hyper Potion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
 
-Luvdisc
+Gyarados @ Gyaradosite
 Level: 41
 IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Water Pulse
@@ -5115,6 +5202,14 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Crabhammer
 - Taunt
 - Leer
+
+Dondozo
+Level: 43
+IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+- Noble Roar
+- Water Pulse
+- Body Slam
+- Rain Dance
 
 Kingdra @ Chesto Berry
 Level: 46
