@@ -560,7 +560,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sDewottLevelUpLearnset,
         .teachableLearnset = sDewottTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 36, SPECIES_SAMUROTT},
-                                {EVO_FRIENDSHIP_MOVE_TYPE, TYPE_DARK, SPECIES_SAMUROTT_HISUIAN}),
+                                {EVO_MOVE, MOVE_NIGHT_SLASH, SPECIES_SAMUROTT_HISUIAN}),
     },
 
     [SPECIES_SAMUROTT] =
@@ -10042,7 +10042,7 @@ const struct SpeciesInfo gSpeciesInfoGen5[] =
         .levelUpLearnset = sRuffletLevelUpLearnset,
         .teachableLearnset = sRuffletTeachableLearnset,
         .evolutions = EVOLUTION({EVO_LEVEL, 54, SPECIES_BRAVIARY},
-                                {EVO_FRIENDSHIP_MOVE_TYPE, TYPE_PSYCHIC, SPECIES_BRAVIARY_HISUIAN}),
+                                {EVO_MOVE, MOVE_AGILITY, SPECIES_BRAVIARY_HISUIAN}),
     },
 
     [SPECIES_BRAVIARY] =

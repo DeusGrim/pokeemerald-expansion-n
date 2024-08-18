@@ -1983,6 +1983,7 @@ static const struct LevelUpMove sElectrodeHisuianLevelUpLearnset[] = {
 
 #if P_FAMILY_EXEGGCUTE
 static const struct LevelUpMove sExeggcuteLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 0, MOVE_DRAGON_HAMMER),
     LEVEL_UP_MOVE( 1, MOVE_BARRAGE),
     LEVEL_UP_MOVE( 1, MOVE_DRAGON_DANCE),
     LEVEL_UP_MOVE( 1, MOVE_HYPNOSIS),
