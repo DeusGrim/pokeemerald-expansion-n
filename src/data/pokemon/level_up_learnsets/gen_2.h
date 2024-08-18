@@ -3602,7 +3602,6 @@ static const struct LevelUpMove sCyndaquilLevelUpLearnset[] = {
 };
 
 static const struct LevelUpMove sQuilavaLevelUpLearnset[] = {
-    LEVEL_UP_MOVE( 0, MOVE_HEX),
     LEVEL_UP_MOVE( 1, MOVE_TACKLE),
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_SMOKESCREEN),
@@ -3610,6 +3609,7 @@ static const struct LevelUpMove sQuilavaLevelUpLearnset[] = {
     LEVEL_UP_MOVE(12, MOVE_EMBER),
     LEVEL_UP_MOVE(21, MOVE_QUICK_ATTACK),
     LEVEL_UP_MOVE(31, MOVE_FLAME_WHEEL),
+    LEVEL_UP_MOVE(35, MOVE_HEX),
     LEVEL_UP_MOVE(42, MOVE_SWIFT),
     LEVEL_UP_MOVE(54, MOVE_FLAMETHROWER),
     LEVEL_UP_END
