@@ -963,19 +963,19 @@ LittlerootTown_Text_ExplainDad:
 
 	LittlerootTown_Text_ExplainDynamaxBand:
 	.string "MOM: He said with this you will be\n"
-	.string "able to maximize your Pokémon's power!”$"
+	.string "able to maximize your POKéMON'S power!”$"
 	
 
 	LittlerootTown_Text_ExplainMegaRing:
 	.string "MOM: This ring is used to \n"
-	.string "evolve your Pokémon further! \p"
+	.string "evolve your POKéMON further! \p"
 	.string "He said it's up to you to find \n"
 	.string "the Mega Stones needed to harness \l"
 	.string "it's power!$"
 
 	LittlerootTown_Text_ExplainZPowerRing:
 	.string "This ring is used to unleash \n"
-	.string "the power of your Pokémon's moves! \p"
+	.string "the power of your POKéMON'S moves! \p"
 	.string "He said you'll also need to find \n"
 	.string "the Z-Crystals to use this!$"
 

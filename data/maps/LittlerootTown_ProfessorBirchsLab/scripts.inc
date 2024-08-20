@@ -514,6 +514,7 @@ LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedex::
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_HeardYouBeatRivalTakePokedex, MSGBOX_DEFAULT
 	call LittlerootTown_ProfessorBirchsLab_EventScript_ReceivePokedex
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_ExplainPokedex, MSGBOX_DEFAULT
+	
 	closemessage
 	applymovement LOCALID_RIVAL, LittlerootTown_ProfessorBirchsLab_Movement_RivalApproachPlayer
 	waitmovement 0
@@ -535,6 +536,8 @@ LittlerootTown_ProfessorBirchsLab_EventScript_MayGivePokeBalls::
 	giveitem ITEM_POKE_BALL, 5
 	call_if_eq VAR_RESULT, FALSE, LittlerootTown_ProfessorBirchsLab_EventScript_MayNoRoomForPokeBalls
 	msgbox LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls, MSGBOX_DEFAULT
+	giveitem  ITEM_POKEMON_BOX_LINK
+	msgbox LittlerootTown_ProfessorBirchsLab_Text_ExplainPokeBox, MSGBOX_DEFAULT
 	setvar VAR_RESULT, 0
 	return
 
@@ -770,7 +773,7 @@ LittlerootTown_ProfessorBirchsLab_Text_MayGotPokedexTooTakeThese:
 	.string "MAY: Oh, wow, {PLAYER}{KUN}!\n"
 	.string "You got a POKéDEX, too!\p"
 	.string "That's great! Just like me!\n"
-	.string "I've got something for you, too!$"
+	.string "I've got some things for you, too!$"
 
 LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
 	.string "MAY: It's fun if you can get a lot of\n"
@@ -782,6 +785,11 @@ LittlerootTown_ProfessorBirchsLab_Text_CatchCutePokemonWithPokeBalls:
 
 LittlerootTown_ProfessorBirchsLab_Text_OhYourBagsFull:
 	.string "Oh? Your BAG's full.$"
+
+LittlerootTown_ProfessorBirchsLab_Text_ExplainPokeBox:
+	.string "MAY: You'll also be using this\n"
+	.string "it connects you to the POKéMON\l"
+	.string "storage system on the PC.$"
 
 LittlerootTown_ProfessorBirchsLab_Text_MayWhereShouldIGoNext:
 	.string "MAY: I wonder where I should go look\n"
